@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>navegaçao no iframe</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 1.5em;
+        }
+        iframe#tela{
+            width: 95vh;
+            height: 400px;
+            border: 2px solid black;
+
+        }
+    </style>
+</head>
+<body>
+    <h1>Faça uma escolha</h1>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed hic beatae sint nisi deserunt temporibus in culpa aspernatur sunt! Nihil commodi omnis aliquid repellat, quasi dolorem eum autem. Quis, explicabo! Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, doloribus cupiditate debitis praesentium culpa necessitatibus accusamus perferendis fuga id at quos commodi quam voluptas ducimus omnis molestias assumenda optio consequatur.
+   
+  <ul>
+    <li> <a href="paginas-extras/pag-1.html" target="frame">pagina 1</a></li>
+    <li> <a href="paginas-extras/pag-02.html" target="frame">pagina 2</a></li>
+    <li><a href="paginas-extras/pag-03.html" target="frame">pagina 3</a></li>
+  </ul>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum quo sapiente pariatur obcaecati dignissimos, ea ad adipisci. Deserunt consequatur minima maiores doloremque perferendis. Ad suscipit, asperiores voluptatibus eveniet ea hic. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugit, voluptatem. Quos dignissimos ipsum architecto quaerat pariatur ad, vitae neque, voluptate reiciendis id ex beatae facere, quidem illum culpa perferendis voluptatem.</p>
+  <iframe 
+        
+        id="tela" name="frame" srcdoc="<h1>escolha uma das opçoes acima</h1><img src='imagens/cursoemvideo.pgn'>">
+
+  </iframe>
+</body>
+</html>
