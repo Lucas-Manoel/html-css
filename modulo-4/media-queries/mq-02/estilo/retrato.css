@@ -1,0 +1,6 @@
+@charset "utf-8";
+/*modo portrait dispositivo em pe*/
+body{
+    background-image: url(../imagens/cev-portrait.jpg);
+    background-position: center bottom;
+}
